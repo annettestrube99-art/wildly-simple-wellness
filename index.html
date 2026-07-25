@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wildly Simple Wellness | Naturopathic Medicine & Holistic Nutrition</title>
+  <meta name="description" content="Wildly Simple Wellness offers naturopathic medicine and holistic nutrition to help your body find balance and heal naturally." />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts: DM Serif Display + DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER / NAVIGATION
+  ============================================================ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+
+      <!-- Logo -->
+      <a href="#top" class="logo" aria-label="Wildly Simple Wellness – home">
+        <img class="logo-leaf" src="logo.png" alt="" aria-hidden="true">
+        <span class="logo-text">Wildly Simple <span class="logo-accent">Wellness</span></span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary nav-cta">Book a Consultation</a>
+
+      <!-- Hamburger (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+
+    <!-- Mobile nav drawer -->
+    <nav class="nav-mobile" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="btn btn-primary">Book a Consultation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- ============================================================
+       HERO – FULL BLEED
+  ============================================================ -->
+  <section class="hero-full" id="hero" aria-label="Hero">
+    <div class="hero-full-overlay" aria-hidden="true"></div>
+    <div class="hero-full-content">
+      <h1 class="reveal">Change Your Life<br><em>to Change Your Body.</em></h1>
+      <p class="hero-sub reveal reveal-delay-1">
+        We help you find the root cause — not just manage symptoms — so you can feel like yourself again, naturally and sustainably.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       HERO – SPLIT
+  ============================================================ -->
+  <section class="hero" aria-label="Our approach">
+    <div class="hero-text-side">
+      <div class="hero-content">
+        <h1 class="reveal">Change Your Life<br><em>to Change Your Body.</em></h1>
+        <p class="hero-sub reveal reveal-delay-1">
+          We help you find the root cause — not just manage symptoms — so you can feel like yourself again, naturally and sustainably.
+        </p>
+        <div class="hero-actions reveal reveal-delay-2">
+          <a href="#contact" class="btn btn-primary btn-lg">Book a Free Consultation</a>
+          <a href="#about" class="btn btn-ghost btn-lg">Learn Our Approach</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image-side" aria-hidden="true">
+      <!-- Replace with: <img src="your-photo.jpg" alt="..." style="width:100%;height:100%;object-fit:cover;"> -->
+      <div class="image-placeholder">
+        <span>Your photo here<br><small>Suggested: warm, natural light portrait or botanical flat lay</small></span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       TRUST BAR
+  ============================================================ -->
+  <div class="trust-bar">
+    <div class="container trust-inner">
+      <div class="trust-item reveal">
+        <span class="trust-icon" aria-hidden="true">&#127807;</span>
+        <span>Root-Cause Focused</span>
+      </div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item reveal reveal-delay-1">
+        <span class="trust-icon" aria-hidden="true">&#10024;</span>
+        <span>Personalized Care</span>
+      </div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item reveal reveal-delay-2">
+        <span class="trust-icon" aria-hidden="true">&#127810;</span>
+        <span>Evidence-Informed</span>
+      </div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item reveal reveal-delay-3">
+        <span class="trust-icon" aria-hidden="true">&#129496;</span>
+        <span>Whole-Body Wellness</span>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ============================================================
+       ABOUT
+  ============================================================ -->
+  <section class="about" id="about" aria-labelledby="about-heading">
+
+    <div class="about-text-side">
+      <div class="about-text">
+        <p class="eyebrow reveal">About the Practice</p>
+        <h2 id="about-heading" class="reveal reveal-delay-1">Healing Rooted in<br><em>Nature &amp; Science</em></h2>
+        <p class="lead reveal reveal-delay-2">
+          <!-- EDIT: Replace with your actual bio intro -->
+          Hi, I'm [Your Name], a licensed naturopathic doctor and holistic nutrition practitioner with [X] years of experience helping people reconnect with their bodies and reclaim vibrant health.
+        </p>
+        <p class="reveal reveal-delay-3">
+          <!-- EDIT: Replace with your philosophy/story -->
+          My approach is simple: your body has an incredible innate intelligence and capacity to heal — it just sometimes needs the right support to do so. Rather than chasing symptoms, I work to uncover the underlying imbalances driving them, so that healing is lasting, not temporary.
+        </p>
+        <p class="reveal reveal-delay-3">
+          <!-- EDIT: Replace with your credentials/background -->
+          I completed my Doctor of Naturopathic Medicine at [School Name] and hold additional certifications in [Specialty], [Specialty], and [Specialty]. I'm a proud member of [Professional Association].
+        </p>
+      </div>
+    </div>
+
+    <div class="about-image-side" aria-hidden="true">
+      <!-- Replace with: <img src="your-photo.jpg" alt="..." style="width:100%;height:100%;object-fit:cover;"> -->
+      <div class="image-placeholder">
+        <span>Practitioner photo here<br><small>Suggested: approachable, well-lit headshot or lifestyle photo</small></span>
+      </div>
+      <div class="about-badge">
+        <span class="badge-line1">Licensed</span>
+        <span class="badge-line2">Naturopathic Doctor</span>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ============================================================
+       SERVICES
+  ============================================================ -->
+  <section class="section services" id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow reveal">What We Offer</p>
+        <h2 id="services-heading" class="reveal reveal-delay-1">Services Designed for<br><em>Your Whole Self</em></h2>
+        <p class="section-subhead reveal reveal-delay-2">Every offering is built around one goal: helping you feel your absolute best — from the inside out.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">&#127807;</div>
+          <h3>Naturopathic Consultations</h3>
+          <p>
+            <!-- EDIT: Replace with your description -->
+            In-depth one-on-one appointments where we explore your full health history, current symptoms, and wellness goals to build a clear picture of your health.
+          </p>
+          <a href="#contact" class="service-link">Learn more &rarr;</a>
+        </article>
+
+        <article class="service-card reveal reveal-delay-1">
+          <div class="service-icon" aria-hidden="true">&#127810;</div>
+          <h3>Holistic Nutrition Coaching</h3>
+          <p>
+            <!-- EDIT: Replace with your description -->
+            Personalized nutritional guidance that goes beyond food — exploring how what you eat influences your energy, mood, hormones, and long-term vitality.
+          </p>
+          <a href="#contact" class="service-link">Learn more &rarr;</a>
+        </article>
+
+        <article class="service-card reveal reveal-delay-2">
+          <div class="service-icon" aria-hidden="true">&#128203;</div>
+          <h3>Personalized Wellness Plans</h3>
+          <p>
+            <!-- EDIT: Replace with your description -->
+            A comprehensive, written wellness plan tailored to your unique biology, lifestyle, and goals — your personal roadmap to lasting health.
+          </p>
+          <a href="#contact" class="service-link">Learn more &rarr;</a>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">&#128300;</div>
+          <h3>Functional Lab Testing</h3>
+          <p>
+            <!-- EDIT: Replace with your description -->
+            Advanced testing beyond standard bloodwork — including hormone panels, gut microbiome analysis, nutrient status, and more — to reveal what's happening beneath the surface.
+          </p>
+          <a href="#contact" class="service-link">Learn more &rarr;</a>
+        </article>
+
+        <article class="service-card reveal reveal-delay-1">
+          <div class="service-icon" aria-hidden="true">&#127807;</div>
+          <h3>Herbal &amp; Supplement Guidance</h3>
+          <p>
+            <!-- EDIT: Replace with your description -->
+            Evidence-informed botanical and nutraceutical recommendations — no guesswork, no generic shelves — just targeted support for your specific needs.
+          </p>
+          <a href="#contact" class="service-link">Learn more &rarr;</a>
+        </article>
+
+        <article class="service-card service-card--cta reveal reveal-delay-2">
+          <div class="service-icon" aria-hidden="true">&#128149;</div>
+          <h3>Not Sure Where to Start?</h3>
+          <p>Book a complimentary 15-minute discovery call and we'll help you figure out the best path forward.</p>
+          <a href="#contact" class="btn btn-primary">Book a Free Call</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       HOW IT WORKS / PROCESS
+  ============================================================ -->
+  <section class="section process" id="process" aria-labelledby="process-heading">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow reveal">The Journey</p>
+        <h2 id="process-heading" class="reveal reveal-delay-1">Simple Steps to<br><em>Feeling Like Yourself Again</em></h2>
+        <p class="section-subhead reveal reveal-delay-2">Working together should feel clear, supported, and empowering — here's what to expect.</p>
+      </div>
+
+      <div class="process-steps">
+
+        <div class="process-step reveal">
+          <div class="step-number" aria-hidden="true">01</div>
+          <div class="step-icon" aria-hidden="true">&#128222;</div>
+          <h3>Book a Consultation</h3>
+          <p>Schedule your initial appointment online — easy, quick, and on your schedule. We'll send you a health intake form to complete before your first visit.</p>
+        </div>
+
+        <div class="process-connector" aria-hidden="true"></div>
+
+        <div class="process-step reveal reveal-delay-1">
+          <div class="step-number" aria-hidden="true">02</div>
+          <div class="step-icon" aria-hidden="true">&#128203;</div>
+          <h3>Deep-Dive Assessment</h3>
+          <p>Your first session is a thorough exploration of your full health history, lifestyle, symptoms, and goals. We listen — deeply and without rushing.</p>
+        </div>
+
+        <div class="process-connector" aria-hidden="true"></div>
+
+        <div class="process-step reveal reveal-delay-2">
+          <div class="step-number" aria-hidden="true">03</div>
+          <div class="step-icon" aria-hidden="true">&#127807;</div>
+          <h3>Your Personalized Plan</h3>
+          <p>We craft a comprehensive, individualized wellness plan — nutrition, lifestyle, supplements, and any additional testing — built just for you.</p>
+        </div>
+
+        <div class="process-connector" aria-hidden="true"></div>
+
+        <div class="process-step reveal reveal-delay-3">
+          <div class="step-number" aria-hidden="true">04</div>
+          <div class="step-icon" aria-hidden="true">&#10024;</div>
+          <h3>Ongoing Support</h3>
+          <p>Health is a journey, not a destination. We check in regularly, adjust your plan as you evolve, and celebrate every win — big and small — along the way.</p>
+        </div>
+
+      </div>
+
+      <div class="process-cta reveal">
+        <a href="#contact" class="btn btn-primary btn-lg">Start Your Journey</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       TESTIMONIALS
+  ============================================================ -->
+  <section class="section testimonials" id="testimonials" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow reveal">Client Stories</p>
+        <h2 id="testimonials-heading" class="reveal reveal-delay-1">Real People,<br><em>Real Results</em></h2>
+      </div>
+
+      <div class="testimonials-grid">
+
+        <blockquote class="testimonial-card reveal">
+          <div class="stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>
+            <!-- EDIT: Replace with real testimonial -->
+            "After years of being told my labs were 'normal' while still feeling exhausted every single day, [Practitioner Name] finally helped me understand what was actually going on. Within three months I had my energy back. I honestly didn't think that was possible."
+          </p>
+          <footer>
+            <div class="testimonial-avatar" aria-hidden="true">S</div>
+            <div>
+              <cite>Sarah M.</cite>
+              <span>Chronic Fatigue &amp; Hormone Imbalance</span>
+            </div>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial-card reveal reveal-delay-1">
+          <div class="stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>
+            <!-- EDIT: Replace with real testimonial -->
+            "The personalized nutrition plan completely changed my relationship with food. I'm not on a 'diet' — I'm just eating in a way that works for my body. My digestion has improved dramatically, and I've lost 20 lbs without once feeling deprived."
+          </p>
+          <footer>
+            <div class="testimonial-avatar" aria-hidden="true">J</div>
+            <div>
+              <cite>Jamie L.</cite>
+              <span>Digestive Health &amp; Weight Management</span>
+            </div>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial-card reveal reveal-delay-2">
+          <div class="stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>
+            <!-- EDIT: Replace with real testimonial -->
+            "I came in struggling with anxiety and sleep issues that conventional medicine wasn't able to help. The holistic approach here looked at everything — stress, nutrition, sleep hygiene, even my gut health. I feel so much more balanced and like myself again."
+          </p>
+          <footer>
+            <div class="testimonial-avatar" aria-hidden="true">R</div>
+            <div>
+              <cite>Rachel K.</cite>
+              <span>Anxiety &amp; Sleep Support</span>
+            </div>
+          </footer>
+        </blockquote>
+
+      </div>
+
+      <!-- Optional: add more testimonials below as your practice grows -->
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FAQ
+  ============================================================ -->
+  <section class="section faq" id="faq" aria-labelledby="faq-heading">
+    <div class="container faq-inner">
+      <div class="section-header">
+        <p class="eyebrow reveal">Questions Answered</p>
+        <h2 id="faq-heading" class="reveal reveal-delay-1">Frequently Asked<br><em>Questions</em></h2>
+      </div>
+
+      <div class="faq-list" role="list">
+
+        <!-- EDIT: Add, remove, or update questions as needed -->
+
+        <div class="faq-item reveal" role="listitem">
+          <button class="faq-question" aria-expanded="false">
+            What is naturopathic medicine?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Naturopathic medicine is a distinct system of primary care that blends evidence-based natural therapies with modern medical science. Naturopathic doctors are trained to treat the whole person — body, mind, and spirit — focusing on finding and treating the root cause of illness rather than simply managing symptoms. Our tools include clinical nutrition, herbal medicine, lifestyle counseling, homeopathy, physical medicine, and more.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-1" role="listitem">
+          <button class="faq-question" aria-expanded="false">
+            How is this different from seeing my regular doctor?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Conventional medicine excels at acute care and emergency treatment. Naturopathic medicine shines when it comes to chronic, complex, or "mystery" conditions where conventional testing comes back normal but you still don't feel well. Appointments are longer (your initial visit is [X] minutes), focused on your full health picture, and we take time to actually listen. We also complement rather than replace your conventional care team.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-2" role="listitem">
+          <button class="faq-question" aria-expanded="false">
+            What should I expect at my first appointment?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Your initial consultation is [X] minutes long and is entirely focused on getting to know you. We'll review your complete health history, current symptoms, diet, sleep, stress, and lifestyle. Before your appointment, you'll complete a detailed intake form so we can make the most of our time together. After your visit, we'll follow up with a written wellness plan tailored specifically to your needs.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal" role="listitem">
+          <button class="faq-question" aria-expanded="false">
+            Do you accept insurance?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>
+              <!-- EDIT: Update this answer based on your actual insurance situation -->
+              At this time, we are an out-of-pocket practice and do not bill insurance directly. However, many clients find that their HSA or FSA accounts can be used for naturopathic services. We're happy to provide a superbill (itemized receipt) that you can submit to your insurance for potential reimbursement — coverage varies by plan. Please contact us if you have questions about costs.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-1" role="listitem">
+          <button class="faq-question" aria-expanded="false">
+            Do you see clients in-person, virtually, or both?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>
+              <!-- EDIT: Update to match your actual offering -->
+              We offer both in-person appointments at our [City] office and virtual consultations via secure video for clients across [State/Region]. Many clients find that virtual appointments fit their schedules beautifully and are just as effective for most types of care.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-2" role="listitem">
+          <button class="faq-question" aria-expanded="false">
+            How soon will I start feeling better?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>This varies widely depending on your health history and goals. Some clients notice meaningful shifts within the first few weeks. For more complex or long-standing conditions, meaningful progress typically unfolds over [3-6] months. Healing is rarely linear — we'll celebrate every improvement and adjust your plan as you respond. What we can promise: you'll feel heard, supported, and never rushed through the process.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTACT / BOOKING
+  ============================================================ -->
+  <section class="section contact" id="contact" aria-labelledby="contact-heading">
+    <div class="container contact-inner">
+
+      <div class="contact-info">
+        <p class="eyebrow reveal">Get in Touch</p>
+        <h2 id="contact-heading" class="reveal reveal-delay-1">Ready to Take<br><em>the First Step?</em></h2>
+        <p class="lead reveal reveal-delay-2">Fill out the form and we'll be in touch within one business day. Or if you'd prefer, reach out directly — we'd love to hear from you.</p>
+
+        <ul class="contact-details reveal reveal-delay-3">
+          <li>
+            <span class="contact-icon" aria-hidden="true">&#128205;</span>
+            <div>
+              <strong>Office</strong>
+              <!-- EDIT: Replace with your address -->
+              <span>[Street Address]<br>[City, State ZIP]</span>
+            </div>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true">&#128222;</span>
+            <div>
+              <strong>Phone</strong>
+              <!-- EDIT: Replace with your phone number -->
+              <span><a href="tel:+10000000000">(000) 000-0000</a></span>
+            </div>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true">&#9993;</span>
+            <div>
+              <strong>Email</strong>
+              <!-- EDIT: Replace with your email -->
+              <span><a href="mailto:hello@wildlysimplewellness.com">hello@wildlysimplewellness.com</a></span>
+            </div>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true">&#128337;</span>
+            <div>
+              <strong>Hours</strong>
+              <!-- EDIT: Replace with your actual hours -->
+              <span>Monday – Thursday: 9am – 5pm<br>Friday: 9am – 1pm<br>Closed weekends &amp; holidays</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact-form-wrap reveal reveal-delay-2">
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" autocomplete="name" required placeholder="Jane Smith" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" required placeholder="jane@example.com" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number <span class="optional">(optional)</span></label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(000) 000-0000" />
+          </div>
+          <div class="form-group">
+            <label for="service">I'm interested in…</label>
+            <select id="service" name="service">
+              <option value="" disabled selected>Select a service</option>
+              <option value="naturopathic">Naturopathic Consultation</option>
+              <option value="nutrition">Holistic Nutrition Coaching</option>
+              <option value="wellness-plan">Personalized Wellness Plan</option>
+              <option value="lab-testing">Functional Lab Testing</option>
+              <option value="herbs">Herbal &amp; Supplement Guidance</option>
+              <option value="discovery">Free Discovery Call</option>
+              <option value="other">Not sure yet</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell us a little about your health goals <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="5" required placeholder="What's going on for you? What are you hoping to address or improve?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-full">Send My Message</button>
+          <p class="form-note">We typically respond within 1 business day. Your information is always kept private and secure.</p>
+          <!-- Success / error messages shown by JS -->
+          <div class="form-status" id="form-status" aria-live="polite" hidden></div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <a href="#top" class="logo logo--light" aria-label="Wildly Simple Wellness – back to top">
+          <img class="logo-leaf" src="logo.png" alt="" aria-hidden="true">
+          <span class="logo-text">Wildly Simple <span class="logo-accent">Wellness</span></span>
+        </a>
+        <p class="footer-tagline">
+          <!-- EDIT: Replace with your tagline or short description -->
+          Helping your body find its way back to balance — naturally, gently, and with deep respect for your whole self.
+        </p>
+        <!-- Social icons -->
+        <div class="social-links" aria-label="Social media">
+          <!-- EDIT: Replace # with your actual profile URLs -->
+          <a href="#" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a4 4 0 0 0-4 4v3H8v4h3v8h4v-8h3l1-4h-4V6a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Pinterest" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.236 2.636 7.855 6.356 9.312-.088-.791-.167-2.005.035-2.868.181-.78 1.172-4.97 1.172-4.97s-.299-.598-.299-1.482c0-1.388.806-2.428 1.808-2.428.853 0 1.267.64 1.267 1.408 0 .858-.546 2.14-.828 3.33-.236.995.499 1.806 1.476 1.806 1.772 0 3.137-1.868 3.137-4.563 0-2.387-1.716-4.054-4.165-4.054-2.837 0-4.498 2.128-4.498 4.327 0 .857.33 1.775.741 2.277a.3.3 0 0 1 .069.282c-.076.315-.244.995-.277 1.134-.044.182-.146.22-.337.133-1.249-.581-2.03-2.407-2.03-3.874 0-3.154 2.292-6.052 6.608-6.052 3.469 0 6.165 2.473 6.165 5.776 0 3.447-2.173 6.22-5.19 6.22-1.013 0-1.966-.527-2.292-1.148l-.623 2.378c-.226.869-.835 1.958-1.244 2.621.937.29 1.931.446 2.962.446 5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <div class="footer-nav-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">How It Works</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Naturopathic Consultations</a></li>
+            <li><a href="#services">Nutrition Coaching</a></li>
+            <li><a href="#services">Wellness Plans</a></li>
+            <li><a href="#services">Functional Lab Testing</a></li>
+            <li><a href="#services">Herbal Guidance</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav-col">
+          <h4>Connect</h4>
+          <ul>
+            <!-- EDIT: Replace # with real URLs -->
+            <li><a href="#contact">Book a Consultation</a></li>
+            <li><a href="mailto:hello@wildlysimplewellness.com">Email Us</a></li>
+            <li><a href="tel:+10000000000">(000) 000-0000</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="year"></span> Wildly Simple Wellness. All rights reserved.</p>
+        <div class="footer-legal">
+          <!-- EDIT: Add links to your actual policy pages when ready -->
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

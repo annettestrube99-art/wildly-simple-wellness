@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\Git\\\\cmd\"; cd \"c:\\\\Users\\\\annet\\\\OneDrive\\\\Documents\\\\Functional Diagnostic Nutrition\\\\My Creations\\\\Wildly Simple Wellness\"; git add -A; git commit -m \"Initial commit - Wildly Simple Wellness website\")"
+    ]
+  }
+}
