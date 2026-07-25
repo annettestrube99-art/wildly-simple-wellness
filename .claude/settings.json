@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/Git/cmd/git.exe\" -C \"c:/Users/annet/OneDrive/Documents/Functional Diagnostic Nutrition/My Creations/Wildly Simple Wellness\" add -A && \"C:/Program Files/Git/cmd/git.exe\" -C \"c:/Users/annet/OneDrive/Documents/Functional Diagnostic Nutrition/My Creations/Wildly Simple Wellness\" commit -m \"Claude Code: auto-save\" && \"C:/Program Files/Git/cmd/git.exe\" -C \"c:/Users/annet/OneDrive/Documents/Functional Diagnostic Nutrition/My Creations/Wildly Simple Wellness\" push origin main || true",
+            "timeout": 30,
+            "statusMessage": "Saving to GitHub..."
+          }
+        ]
+      }
+    ]
+  }
+}
