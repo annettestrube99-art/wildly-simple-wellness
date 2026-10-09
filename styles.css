@@ -224,7 +224,7 @@ strong { font-weight: 600; }
 /* Logo + nav colors over the dark hero */
 .site-header .logo-text { color: var(--white); }
 .site-header .logo-accent { color: rgba(255,255,255,0.78); }
-.site-header .logo-leaf { filter: invert(1); mix-blend-mode: normal; }
+.site-header .logo-leaf { filter: none; mix-blend-mode: screen; }
 .site-header .nav-desktop a { color: rgba(255,255,255,0.85); }
 .site-header .nav-desktop a:hover,
 .site-header .nav-desktop a:focus { color: var(--white); background: rgba(255,255,255,0.1); }
