@@ -366,6 +366,7 @@ strong { font-weight: 600; }
 }
 
 .hero-full-content .hero-sub {
+  font-family: var(--serif);
   color: rgba(255,255,255,0.82);
   max-width: 54ch;
   margin-inline: auto;
