@@ -434,6 +434,23 @@ strong { font-weight: 600; }
 .trust-icon { font-size: 1.2rem; }
 .trust-divider { width: 1px; height: 22px; background: rgba(255,255,255,.25); }
 
+/* ─── QUOTE BANNER ──────────────────────────────────────── */
+.quote-banner {
+  background: var(--primary);
+  padding: clamp(2.5rem, 5vw, 4rem) var(--gutter);
+  text-align: center;
+}
+
+.quote-banner p {
+  font-family: 'Cinzel', var(--serif);
+  color: var(--white);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.7;
+  max-width: 70ch;
+  margin-inline: auto;
+  letter-spacing: 0.03em;
+}
+
 /* ─── ABOUT ──────────────────────────────────────────────── */
 .about {
   display: grid;
