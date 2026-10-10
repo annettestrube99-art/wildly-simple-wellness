@@ -444,7 +444,7 @@ strong { font-weight: 600; }
 .quote-banner p {
   font-family: 'Cinzel', var(--serif);
   color: var(--white);
-  font-size: clamp(0.65rem, 1vw, 0.85rem);
+  font-size: clamp(0.85rem, 1.3vw, 1.1rem);
   line-height: 1.8;
   max-width: none;
   margin-inline: auto;
