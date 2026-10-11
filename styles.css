@@ -78,7 +78,7 @@ h1 { font-size: clamp(2.6rem, 5vw + .5rem, 4.2rem); }
 h2 { font-size: clamp(2rem, 4vw, 3rem); }
 h3 { font-size: clamp(1.15rem, 2vw, 1.4rem); }
 
-em { font-style: italic; color: var(--primary); }
+em { font-style: italic; color: #c9a55a; }
 strong { font-weight: 600; }
 
 .eyebrow {
