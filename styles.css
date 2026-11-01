@@ -115,6 +115,31 @@ strong { font-weight: 600; }
   margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
 }
 
+.imagine-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem auto 0;
+  max-width: 520px;
+  text-align: left;
+  display: inline-block;
+}
+
+.imagine-list li {
+  font-size: clamp(1rem, 1.5vw, 1.1rem);
+  color: var(--text);
+  padding: 0.45rem 0 0.45rem 1.6rem;
+  position: relative;
+}
+
+.imagine-list li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  color: #c9a55a;
+  font-size: 0.7rem;
+  top: 0.65rem;
+}
+
 .section-subhead {
   margin-top: 1.25rem;
   color: var(--muted);
