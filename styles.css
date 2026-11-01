@@ -640,13 +640,16 @@ strong { font-weight: 600; }
 }
 
 .program-card--featured {
-  background: var(--primary-lt);
-  border-color: var(--primary-lt);
+  background: var(--primary-dk);
+  border-color: var(--primary-dk);
 }
 
 .program-card--featured .program-header h3,
-.program-card--featured .program-price {
-  color: var(--text);
+.program-card--featured .program-duration,
+.program-card--featured .program-tagline,
+.program-card--featured .program-price,
+.program-card--featured .program-features li {
+  color: var(--white);
 }
 
 .program-card--featured .program-features li::before {
