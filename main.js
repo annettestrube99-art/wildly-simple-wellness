@@ -87,13 +87,26 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.textContent = 'Sending…';
       btn.disabled = true;
 
-      /* Replace the line below with your actual form endpoint / API call */
-      await new Promise(r => setTimeout(r, 1200));
-
-      btn.textContent = orig;
-      btn.disabled = false;
-      form.reset();
-      showStatus('success', '✓ Message sent! We\'ll be in touch within one business day.');
+      try {
+        const response = await fetch('https://formsubmit.co/ajax/wildlysimplefdn@gmail.com', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify({ name, email, message })
+        });
+        const result = await response.json();
+        btn.textContent = orig;
+        btn.disabled = false;
+        if (result.success) {
+          form.reset();
+          showStatus('success', '✓ Message sent! I\'ll be in touch within two business days.');
+        } else {
+          showStatus('error', 'Something went wrong. Please email me directly at wildlysimplefdn@gmail.com');
+        }
+      } catch {
+        btn.textContent = orig;
+        btn.disabled = false;
+        showStatus('error', 'Something went wrong. Please email me directly at wildlysimplefdn@gmail.com');
+      }
     });
   }
 
