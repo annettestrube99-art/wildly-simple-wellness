@@ -324,7 +324,7 @@ strong { font-weight: 600; }
 .hamburger span {
   display: block;
   width: 22px; height: 2px;
-  background: var(--text);
+  background: var(--white);
   border-radius: 2px;
   transition: transform var(--dur) var(--ease), opacity var(--dur) var(--ease);
   transform-origin: center;
@@ -1087,7 +1087,7 @@ strong { font-weight: 600; }
   .nav-desktop, .nav-cta { display: none; }
   .hamburger { display: flex; }
 
-  .hero-full { min-height: 80vh; }
+  .hero-full { min-height: 80vh; background-position: 70% center; }
   .hero-full-content h1 { font-size: clamp(2.2rem, 8vw, 3.2rem); }
 
   .hero {
