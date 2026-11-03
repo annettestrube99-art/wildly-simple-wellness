@@ -399,6 +399,8 @@ strong { font-weight: 600; }
 }
 
 /* ─── HERO ───────────────────────────────────────────────── */
+.hero-mobile-label { display: none; }
+
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1103,6 +1105,20 @@ strong { font-weight: 600; }
     grid-template-columns: 1fr;
     min-height: auto;
   }
+
+  .hero-mobile-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+    padding: 1.75rem var(--gutter) 1.25rem;
+    order: 0;
+  }
+  .hero-mobile-label .eyebrow {
+    margin-bottom: 0;
+    font-size: 0.85rem;
+  }
+
   .hero-text-side {
     padding: 3rem var(--gutter);
     text-align: center;
