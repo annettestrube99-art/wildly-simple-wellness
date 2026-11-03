@@ -1087,7 +1087,16 @@ strong { font-weight: 600; }
   .nav-desktop, .nav-cta { display: none; }
   .hamburger { display: flex; }
 
+  /* Shrink header/logo so it fits mobile width */
+  .header-inner { height: 72px; }
+  .logo-leaf { height: 60px; }
+  .logo-text { font-size: 0.95rem; letter-spacing: 0.06em; }
+  .logo { gap: 0.65rem; }
+
   .hero-full { min-height: 80vh; background-position: 70% center; }
+  .hero-full-content {
+    padding-top: calc(72px + clamp(2rem, 5vw, 3.5rem));
+  }
   .hero-full-content h1 { font-size: clamp(2.2rem, 8vw, 3.2rem); }
 
   .hero {
