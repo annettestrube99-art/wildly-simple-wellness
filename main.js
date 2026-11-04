@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.disabled = true;
 
       try {
-        const response = await fetch('https://formsubmit.co/ajax/wildlysimplefdn@gmail.com', {
+        const response = await fetch('https://formsubmit.co/ajax/be6eb1f3a1290aa72d86724a7090f3cd', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
           body: JSON.stringify({ name, email, message })
