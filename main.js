@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
           body: JSON.stringify({
-            access_key: 'PASTE_ACCESS_KEY_HERE',
+            access_key: '33256373-0c55-4c1b-9433-92d714343433',
             name,
             email,
             message,
