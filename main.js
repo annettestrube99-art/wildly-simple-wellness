@@ -88,10 +88,16 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.disabled = true;
 
       try {
-        const response = await fetch('https://formsubmit.co/ajax/be6eb1f3a1290aa72d86724a7090f3cd', {
+        const response = await fetch('https://api.web3forms.com/submit', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-          body: JSON.stringify({ name, email, message })
+          body: JSON.stringify({
+            access_key: 'PASTE_ACCESS_KEY_HERE',
+            name,
+            email,
+            message,
+            subject: 'New message from Wildly Simple Wellness website'
+          })
         });
         const result = await response.json();
         btn.textContent = orig;
