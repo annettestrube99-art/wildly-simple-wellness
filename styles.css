@@ -1072,6 +1072,16 @@ strong { font-weight: 600; }
 .footer-bottom p { font-size: .78rem; color: rgba(255,255,255,.35); max-width: none; }
 
 .footer-legal { display: flex; gap: 1.5rem; }
+
+.footer-disclaimer {
+  font-size: .68rem;
+  color: rgba(255,255,255,.25);
+  line-height: 1.6;
+  max-width: none;
+  padding-block: 1rem 1.5rem;
+  border-top: 1px solid rgba(255,255,255,.06);
+  margin-top: .5rem;
+}
 .footer-legal a {
   font-size: .78rem;
   color: rgba(255,255,255,.35);
