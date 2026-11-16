@@ -396,12 +396,13 @@ strong { font-weight: 600; }
 }
 
 .hero-full-content h1 {
-  font-family: var(--serif);
+  font-family: 'Cinzel', var(--serif);
   color: var(--white);
   font-size: clamp(1.6rem, 2.8vw, 2.6rem);
   line-height: 1.35;
-  letter-spacing: 0em;
-  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
   margin-bottom: 1.2rem;
   white-space: nowrap;
 }
