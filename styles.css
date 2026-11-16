@@ -462,10 +462,8 @@ strong { font-weight: 600; }
 
 .section-photo {
   width: 100%;
-  max-width: 480px;
+  max-width: 520px;
   height: auto;
-  max-height: 580px;
-  object-fit: cover;
   border-radius: 1.25rem;
   display: block;
   box-shadow: var(--sh-lg);
