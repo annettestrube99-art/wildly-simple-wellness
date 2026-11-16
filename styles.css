@@ -483,12 +483,14 @@ strong { font-weight: 600; }
   position: relative;
   z-index: 1;
   font-family: 'Cinzel', var(--serif);
-  color: var(--white);
-  font-size: clamp(0.85rem, 1.3vw, 1.1rem);
-  line-height: 1.8;
+  color: rgba(255,255,255,0.88);
+  font-size: clamp(0.65rem, 0.9vw, 0.82rem);
+  line-height: 2.2;
   max-width: none;
   margin-inline: auto;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 /* ─── ABOUT ──────────────────────────────────────────────── */
