@@ -386,10 +386,10 @@ strong { font-weight: 600; }
 }
 
 .hero-descriptor {
-  font-family: var(--sans);
+  font-family: 'Cinzel', var(--serif);
   font-size: clamp(0.95rem, 1.3vw, 1.15rem);
-  font-weight: 600;
-  letter-spacing: 0.06em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgba(255,255,255,0.85);
   margin-bottom: 0.9rem;
@@ -412,10 +412,10 @@ strong { font-weight: 600; }
 }
 
 .hero-welcome {
-  font-family: var(--sans);
+  font-family: 'Cinzel', var(--serif);
   font-size: clamp(0.95rem, 1.3vw, 1.15rem);
-  font-weight: 600;
-  letter-spacing: 0.06em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgba(255,255,255,0.85);
   margin-bottom: 0;
