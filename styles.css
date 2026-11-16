@@ -385,18 +385,32 @@ strong { font-weight: 600; }
 }
 
 .hero-full-content h1 {
+  font-family: 'Cinzel', var(--serif);
   color: var(--white);
-  font-size: clamp(2.8rem, 6vw, 5.5rem);
-  line-height: 1.07;
+  font-size: clamp(1.6rem, 3.5vw, 3rem);
+  line-height: 1.4;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 400;
   margin-bottom: 1.5rem;
+}
+
+.hero-full-content h1 em {
+  font-style: italic;
+  color: rgba(255,255,255,0.75);
+  letter-spacing: 0.08em;
 }
 
 .hero-full-content .hero-sub {
   font-family: 'Cinzel', var(--serif);
-  color: rgba(255,255,255,0.82);
+  color: rgba(255,255,255,0.65);
+  font-size: clamp(0.7rem, 1vw, 0.85rem);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
   max-width: 54ch;
   margin-inline: auto;
   margin-bottom: 0;
+  line-height: 2;
 }
 
 /* ─── HERO ───────────────────────────────────────────────── */
