@@ -380,7 +380,7 @@ strong { font-weight: 600; }
   z-index: 2;
   text-align: left;
   padding: calc(110px + clamp(2.5rem, 5vw, 4.5rem)) var(--gutter) clamp(3rem, 6vw, 5rem);
-  padding-left: clamp(2.5rem, 8vw, 7rem);
+  padding-left: clamp(1.5rem, 4vw, 3.5rem);
   max-width: 900px;
   margin-inline: 0;
 }
@@ -398,7 +398,7 @@ strong { font-weight: 600; }
 .hero-full-content h1 {
   font-family: 'Cinzel', var(--serif);
   color: var(--white);
-  font-size: clamp(1.6rem, 2.8vw, 2.6rem);
+  font-size: clamp(1.1rem, 2vw, 1.9rem);
   line-height: 1.35;
   letter-spacing: 0.08em;
   text-transform: uppercase;
