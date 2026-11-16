@@ -387,22 +387,23 @@ strong { font-weight: 600; }
 
 .hero-descriptor {
   font-family: var(--sans);
-  font-size: clamp(0.8rem, 1.2vw, 1rem);
-  font-weight: 400;
-  letter-spacing: 0.08em;
+  font-size: clamp(0.95rem, 1.3vw, 1.15rem);
+  font-weight: 600;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.6);
-  margin-bottom: 0.75rem;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 0.9rem;
 }
 
 .hero-full-content h1 {
   font-family: var(--serif);
   color: var(--white);
-  font-size: clamp(2.2rem, 4.5vw, 4.2rem);
-  line-height: 1.2;
-  letter-spacing: -0.01em;
+  font-size: clamp(1.6rem, 2.8vw, 2.6rem);
+  line-height: 1.35;
+  letter-spacing: 0em;
   font-weight: 400;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
+  white-space: nowrap;
 }
 
 .hero-full-content h1 em {
@@ -412,11 +413,11 @@ strong { font-weight: 600; }
 
 .hero-welcome {
   font-family: var(--sans);
-  font-size: clamp(0.75rem, 1vw, 0.9rem);
-  font-weight: 400;
-  letter-spacing: 0.1em;
+  font-size: clamp(0.95rem, 1.3vw, 1.15rem);
+  font-weight: 600;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.85);
   margin-bottom: 0;
 }
 
@@ -1138,7 +1139,7 @@ strong { font-weight: 600; }
     padding-top: calc(72px + clamp(2rem, 5vw, 3.5rem));
     padding-left: var(--gutter);
   }
-  .hero-full-content h1 { font-size: clamp(1.8rem, 7vw, 2.8rem); }
+  .hero-full-content h1 { font-size: clamp(1.4rem, 5.5vw, 2rem); white-space: normal; }
 
   .hero {
     grid-template-columns: 1fr;
