@@ -687,6 +687,34 @@ strong { font-weight: 600; }
 .service-card--cta .btn-primary:hover { background: var(--bg); border-color: var(--bg); }
 
 /* ─── PROGRAMS ───────────────────────────────────────────── */
+.black-friday-banner {
+  text-align: center;
+  font-family: 'Cinzel', var(--serif);
+  font-size: clamp(0.78rem, 1.1vw, 0.95rem);
+  letter-spacing: 0.08em;
+  color: var(--white);
+  background: #1a1a1a;
+  padding: 0.85rem var(--gutter);
+  border-radius: var(--r-md);
+  margin-bottom: 2rem;
+  max-width: none;
+}
+
+.price-original {
+  text-decoration: line-through;
+  opacity: 0.5;
+  font-size: 0.85em;
+}
+
+.price-sale {
+  color: #c9a55a;
+  margin-left: 0.4rem;
+}
+
+.program-card--featured .price-sale {
+  color: #e8c97a;
+}
+
 .programs-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
